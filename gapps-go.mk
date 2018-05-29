@@ -9,8 +9,7 @@ PRODUCT_PACKAGES += \
 	CalendarGoogle \
 	Chrome \
 	ConfigUpdater \
-        FilesGo \
-	FilesGo-Stub \
+	FilesGo \
 	GMailGo \
 	GmsCore \
 	GoogleBackupTransport \
