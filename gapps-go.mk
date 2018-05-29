@@ -1,6 +1,5 @@
 #Move FilesGo.apk.gz to a PREBUILT?
 PRODUCT_COPY_FILES += \
-	vendor/gapps-go/bin/FilesGo.apk.gz:system/priv-app/FilesGo/FilesGo.apk.gz \
 	vendor/gapps-go/bin/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
 	vendor/gapps-go/bin/google.xml:system/etc/sysconfig/google.xml \
 	vendor/gapps-go/bin/preferred-apps-google.xml:system/etc/preferred-apps/google.xml
@@ -10,6 +9,7 @@ PRODUCT_PACKAGES += \
 	CalendarGoogle \
 	Chrome \
 	ConfigUpdater \
+        FilesGo \
 	FilesGo-Stub \
 	GMailGo \
 	GmsCore \
